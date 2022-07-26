@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Poppins";
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+}
+.navbar-container img {
+  width: 120px;
+}
+.navbar-container .list {
+  margin-left: -25rem;
+  list-style-type: none;
+  display: flex;
+  cursor: pointer;
+}
+.navbar-container .list .list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.navbar-container .list .list-item:not(:first-child) {
+  color: #b2b0b0;
+}
+.navbar-container .list .list-item:first-child {
+  font-weight: 500;
+}
+.nav-button {
+  padding: 16px 32px;
+  background-color: #5955b3;
+  border: 1px solid #5955b3;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.banner-container {
+  display: flex;
+}
+
+.banner-container .heading-text {
+  font-size: 4rem;
+  margin-top: 5rem;
+  color: #3c2f60;
+}
+
+.banner-container .heading-text span {
+  color: #5955b3;
+}
+
+.banner-container .description {
+  margin-top: 1.5rem;
+  color: #918d8d;
+}
+.banner-container .nav-button {
+  margin-top: 3rem;
+}
